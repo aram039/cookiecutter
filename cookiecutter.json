@@ -8,6 +8,7 @@
     "availability_zone" : "us-east-2a",
     "instance_ami" : "ami-06c7d6c0987eaa46c",
     "ami"           : "ami-0df2643dffb0fed91",
-    "instance_type" : "t3.medium"
+    "instance_type" : "t3.medium",
+    "pyxelchain-domain" : "pyxelchain-tf.gameficap.com"
 
 }
