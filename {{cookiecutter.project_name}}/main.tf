@@ -48,8 +48,8 @@ resource "aws_security_group" "allow_outbound" {
 }
 
 resource "aws_instance" "pyxelchain-website2" {
-  ami           = "{{cookiecutter.ami_id}}"
-  instance_type = "{{cookiecutter.instance_type}}"
+ # ami           = "{{cookiecutter.ami_id}}"
+ # instance_type = "{{cookiecutter.instance_type}}"
 
   tags = {
     Name = "pyxelchain-website2-tf"
