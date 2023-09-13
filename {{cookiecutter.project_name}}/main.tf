@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "terrafrom-products"
     key    = "terraform-products"
-    region = "{{cookiecutter.aws_region}}"
+ #   region = "{{cookiecutter.aws_region}}"
 
   }
   required_providers {
@@ -18,7 +18,7 @@ terraform {
 
 provider "aws" {
   #profile = "default"
-  region = "{{cookiecutter.aws_region}}"
+#  region = "{{cookiecutter.aws_region}}"
 }
 
 resource "aws_key_pair" "operator" {
