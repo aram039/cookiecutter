@@ -13,7 +13,7 @@ variable "aws_subregion_a" {
 variable "instance_ami"  { default = "{{cookiecutter.ami_id}}" }
 variable "aws_access_key" { default = "{{cookiecutter.access_key}}" }
 variable "aws_secret_key" { default = "{{cookiecutter.secret_key}}" }
-variable "pyxelchain-domain" { default = "{{cookiecutter.pyxelchain-domain}}" }
+#variable "pyxelchain-domain" { default = "{{cookiecutter.pyxelchain-domain}}" }
 
 variable "region" {
   description = "AWS region to manage resources in"
