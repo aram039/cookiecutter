@@ -1,5 +1,7 @@
 {
     "project_name": "Your Project Name",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "Short Description of this Project."
+    "project_short_description": "Short Description of this Project.",
+    "aws_region": "us-east-2"
+
 }

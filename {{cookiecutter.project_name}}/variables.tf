@@ -1,6 +1,6 @@
 # Used to tag resources
 variable "env" { default = "terraform" }
-variable "aws_region"      { default = "us-east-2" }
+variable "aws_region"      { default = "{{cookiecutter.aws_region}}" }
 variable "aws_subregion_a" { default = "us-east-2a" }
 variable "instance_ami"  { default = "ami-06c7d6c0987eaa46c" }
 variable "aws_access_key" { default = "ASIASNUU6P2WT5BF674Q" }
