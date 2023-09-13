@@ -2,6 +2,13 @@
     "project_name": "Your Project Name",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "Short Description of this Project.",
-    "aws_region": "us-east-2"
+    "aws_access_key" : "ASIASNUU6P2WT5BF674Q",
+    "aws_secret_key" : "mbKIkqLxGISvmOq+YWAiGjwPgdVsSkuJQ8/GXAmH",
+    "aws_region": "us-east-2",
+    "availability_zone" : "us-east-2a",
+    "instance_ami" : "ami-06c7d6c0987eaa46c",
+    "ami"           : "ami-0df2643dffb0fed91",
+    "instance_type" : "t3.medium",
+    "pyxelchain-domain" : "pyxelchain-tf.gameficap.com"
 
 }
