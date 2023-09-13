@@ -1,0 +1,13 @@
+{
+    "project_name": "Your Project Name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Short Description of this Project.",
+    "access_key": "ASIASNUU6P2WT5BF674Q",
+    "secret_key": "mbKIkqLxGISvmOq+YWAiGjwPgdVsSkuJQ8/GXAmH",
+    "aws_region": "us-east-2",
+    "availability_zone" : "us-east-2a",
+    "ami_id" : "ami-06c7d6c0987eaa46c",
+    "instance_type" : "t3.medium",
+    "project_env": "terraform" ,
+    "pyxelchain-domain" : "pyxelchain-tf.gameficap.com"
+}
