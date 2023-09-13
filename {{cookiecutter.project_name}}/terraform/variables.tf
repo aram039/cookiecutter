@@ -1,5 +1,5 @@
 # Used to tag resources
-variable "env" { default = "terraform" }
+variable "env" { default = "{{cookiecutter.environment}}" }
 variable "aws_region"      { default = "{{cookiecutter.aws_region}}" }
 variable "aws_subregion_a" { default = "{{cookiecutter.availability_zone}}" }
 variable "instance_ami"  { default = "{{cookiecutter.instance_ami}}" }
